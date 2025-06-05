@@ -1,0 +1,7 @@
+names:
+- Book
+- Glasses
+- Mug
+nc: 3
+train: dataset/images/train
+val: dataset/images/val
