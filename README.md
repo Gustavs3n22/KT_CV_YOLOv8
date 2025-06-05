@@ -13,8 +13,10 @@
    git clone https://github.com/Gustavs3n22/KT_CV_YOLOv8.git
    cd yolov8-object-detection
    
-Войдите в папку с клонированным репозиторием, запустите следующую строчку в cmd (ЭТОТ ШАГ МОЖНО ПРОПУСТИТЬ):
-yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640
+2. **Войдите в папку с клонированным репозиторием** 
+запустите следующую строчку в cmd (ЭТОТ ШАГ МОЖНО ПРОПУСТИТЬ):
+   ```bash
+	yolo task=detect mode=train model=yolov8n.pt data=data.yaml epochs=50 imgsz=640
 
 После обучения модели, она сохранится автоматически.
 
